@@ -1,23 +1,10 @@
+# Terminal
 
 ## apt-get update & upgrade
 ```
 $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
-
-
-## Vim
-
-```
-sudo apt-get install vim
-```
-
-
-
-## Vundle
-
-
-
 
 ## Python default version (system-wide)
 
@@ -86,3 +73,32 @@ There are 2 choices for the alternative python (providing /usr/bin/python).
 
 Press <enter> to keep the current choice[*], or type selection number: 
 ```
+
+## Vim
+```
+sudo apt-get install vim
+```
+
+## Vundle
+[Vundle](https://github.com/VundleVim/Vundle.vim) is short for Vim bundle and is a Vim plugin manager.
+1. Setup
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+2. Configure Plugins
+* Download this repository via
+```
+git clone https://github.com/duke-leeth/MacSetup.git
+```
+
+* Put [`.vimrc`](.vimrc) at the `~` directory to use Vundle.
+```
+mv <Path to MacSetup>/.vimrc ~
+```
+
+3. Install Plugins:
+* Launch `vim` and run `:PluginInstall`
+* To install from command line: `vim +PluginInstall +qall`
+
+
