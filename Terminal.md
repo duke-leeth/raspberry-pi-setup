@@ -102,3 +102,15 @@ mv <Path to MacSetup>/.vimrc ~
 * To install from command line: `vim +PluginInstall +qall`
 
 
+## Preserve your own `.vimrc` when `sudo`
+
+Command pattern:
+```
+$ sudo -E vim <FILE_NAME>
+```
+
+Option explained:
+```
+-E    The -E (preserve environment) option indicates to the security policy that the user wishes to preserve their existing environment variables.  The
+      security policy may return an error if the -E option is specified and the user does not have permission to preserve the environment.
+```
