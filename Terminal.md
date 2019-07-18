@@ -8,7 +8,7 @@ $ sudo apt-get upgrade
 
 ## Python default version (system-wide)
 
-Change the default python version system-wide [reference](https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux)
+Change the default python version system-wide ([reference](https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux))
 
 
 Run the following command to find out what python binary exexutables are available
