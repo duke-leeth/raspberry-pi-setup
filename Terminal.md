@@ -76,7 +76,7 @@ Press <enter> to keep the current choice[*], or type selection number:
 
 ## Vim
 ```
-sudo apt-get install vim
+sudo apt-get install vim-nox
 ```
 
 ## Vundle
