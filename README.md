@@ -1,4 +1,4 @@
-# Raspberry Pi Set Up
+# Raspberry Pi Setup
 Date: 2020.04.18
 
 Author: Duke Lee
