@@ -6,7 +6,7 @@ In this document, we will leverage our powerful computer/nice keyboard/magic mou
 
 General advantage of remote development mentioned in VS Code offical doc:
 
-*The Visual Studio Code Remote - SSH extension allows you to open a remote folder on any remote machine, virtual machine, or container with a running SSH server and take full advantage of VS Code's feature set. Once connected to a server, you can interact with files and folders anywhere on the remote filesystem.*
+*The **Visual Studio Code Remote - SSH extension** allows you to open a remote folder on any remote machine, virtual machine, or container with a running SSH server and take full advantage of VS Code's feature set. Once connected to a server, you can interact with files and folders anywhere on the remote filesystem.*
 
 *No source code needs to be on your local machine to gain these benefits since the extension runs commands and other extensions directly on the remote machine.*
 
